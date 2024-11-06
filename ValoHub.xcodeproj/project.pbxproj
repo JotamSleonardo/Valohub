@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BC95B602CD68AAE0074CCE9 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC95B5F2CD68AAE0074CCE9 /* PureSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0BF1CDB22CB7D52F00A1A75F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC95B602CD68AAE0074CCE9 /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = ValoHub;
 			packageProductDependencies = (
+				0BC95B5F2CD68AAE0074CCE9 /* PureSwiftUI */,
 			);
 			productName = ValoHub;
 			productReference = 0BF1CDA12CB7D52D00A1A75F /* ValoHub.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 0BF1CD982CB7D52D00A1A75F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0BC95B5E2CD68AAE0074CCE9 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BF1CDA22CB7D52D00A1A75F /* Products */;
 			projectDirPath = "";
@@ -395,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ValoHub/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ValoHub/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = RM5H86SRZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +433,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ValoHub/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ValoHub/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = RM5H86SRZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -558,6 +567,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BC95B5E2CD68AAE0074CCE9 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 5.0.0;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BC95B5F2CD68AAE0074CCE9 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC95B5E2CD68AAE0074CCE9 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BF1CD992CB7D52D00A1A75F /* Project object */;
 }
